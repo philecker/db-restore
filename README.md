@@ -1,4 +1,5 @@
-This is a shell script for simplifying a database restore from backup file using PostgreSQL. Here's how it works:
+This is a shell script for simplifying a database restore from backup file using PostgreSQL. 
+Here's how it works:
 
 1. The script gets today's date and sets a default file name and database name based on that date.
 2. It prompts the user to confirm whether to drop and recreate the database or use the default database name.
