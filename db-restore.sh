@@ -15,7 +15,7 @@ psql -U postgres -c "CREATE DATABASE $database;"
 echo ====================================
 
 read -e -p "Database Backup File Name (Defalut: $defaultFileName): " file
-file="${file:-$defaultName}"
+file="${file:-$defaultFileName}"
 
 pg_restore -U postgres -d $database ~/Downloads/"$file"
 echo ====================================
